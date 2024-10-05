@@ -3,6 +3,7 @@ import axios from 'axios';
 import { TextField, Button, Box, Typography } from '@mui/material'; // ใช้การ import จากบรรทัดนี้
 import { Container } from '@mui/material'; // นำเข้าเฉพาะ Container จาก @mui/material
 import { useNavigate } from 'react-router-dom';
+import './css/i.css'; // Import CSS
 
 const RegisterPage = () => {
   const [username, setUsername] = useState('');

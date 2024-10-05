@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom'; // ลบ useNavigate ออก
-import './css/HomePage.css';
+import './css/i.css';
 
 function HomePage() {
   const [concerts, setConcerts] = useState([]); // ยังมี state นี้ไว้สำหรับใช้ในอนาคต
