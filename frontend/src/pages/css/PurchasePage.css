@@ -1,0 +1,20 @@
+.purchase-container {
+    padding: 20px;
+  }
+  
+  .ticket-details {
+    margin-bottom: 20px;
+  }
+  
+  .purchase-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .purchase-button:hover {
+    background-color: #218838;
+  }
+  

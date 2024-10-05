@@ -1,0 +1,21 @@
+.payment-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .payment-page header {
+    margin-bottom: 20px;
+  }
+  
+  .payment-details {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .payment-actions button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  

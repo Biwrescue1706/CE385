@@ -1,0 +1,71 @@
+/* Container หลักของหน้า Concerts */
+.concerts-container {
+  padding: 20px;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* หัวข้อของหน้า */
+.concerts-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* รายการคอนเสิร์ต */
+.concerts-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* กล่องคอนเสิร์ต */
+.concert-item {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+/* เมื่อวางเมาส์เหนือกล่องคอนเสิร์ต */
+.concert-item:hover {
+  transform: translateY(-10px);
+}
+
+/* ชื่อคอนเสิร์ต */
+.concert-item h3 {
+  font-size: 1.75rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+/* ข้อมูลคอนเสิร์ต */
+.concert-item p {
+  font-size: 1rem;
+  color: #666;
+  margin: 5px 0;
+}
+
+/* ลิงก์เลือกที่นั่ง */
+.concert-item a {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+/* เมื่อวางเมาส์เหนือปุ่ม */
+.concert-item a:hover {
+  background-color: #0056b3;
+}

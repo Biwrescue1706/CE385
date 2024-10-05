@@ -1,0 +1,50 @@
+/* src/pages/css/TicketPurchasePage.css */
+
+.ticket-purchase-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  header {
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .ticket-selection {
+    margin-bottom: 20px;
+  }
+  
+  .ticket-selection label {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .ticket-selection input {
+    font-size: 18px;
+    width: 60px;
+  }
+  
+  button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

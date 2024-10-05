@@ -1,0 +1,22 @@
+version: '3'
+services:
+  postgres:
+    image: postgres:latest
+    container_name: postgres-container
+    environment:
+      POSTGRES_USER: Biw1706
+      POSTGRES_PASSWORD: Biw1706
+      POSTGRES_DB: Concert
+    ports:
+      - "5432:5432"
+
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: pgadmin-container
+    environment:
+      PGADMIN_DEFAULT_EMAIL: bewrockgame1@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: Biwadmin
+    ports:
+      - "8080:80"
+    depends_on:
+      - postgres

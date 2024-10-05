@@ -1,0 +1,76 @@
+/* LoginPage.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa; /* เปลี่ยนสีพื้นหลัง */
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* ให้เต็มความสูงของหน้าจอ */
+}
+
+.login-form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 350px; /* ความกว้างของฟอร์ม */
+  text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left; /* ให้ข้อความ label ชิดซ้าย */
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #008CBA; /* สีน้ำเงินสำหรับปุ่ม */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #005f75; /* เปลี่ยนสีปุ่มเมื่อชี้เมาส์ */
+}
+
+.error-message {
+  color: red;
+  margin: 10px 0;
+}
+
+.register-links {
+  margin-top: 10px;
+}
+
+.register-links label {
+  font-size: 14px;
+}
+
+.register-links a {
+  color: #007BFF; /* สีลิงก์ */
+  text-decoration: none; /* ไม่ให้มีขีดเส้นใต้ */
+}
+
+.register-links a:hover {
+  text-decoration: underline; /* ขีดเส้นใต้เมื่อลอยอยู่เหนือ */
+}

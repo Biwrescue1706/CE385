@@ -1,0 +1,55 @@
+.seat {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #ccc; /* กรอบ */
+  border-radius: 5px; /* มุมโค้ง */
+  padding: 5px; /* ระยะห่างในกรอบ */
+  background-color: rgb(255, 0, 0); /* พื้นหลัง */
+}
+
+.available {
+  background-color: rgb(219, 247, 219); /* สีที่นั่งว่าง */
+}
+
+.booked {
+  background-color: lightcoral; /* สีที่นั่งที่ถูกจอง */
+}
+
+.selected {
+  border: 2px solid black; /* กรอบที่นั่งที่เลือก */
+}
+
+.seat-info {
+  display: flex;
+  flex-direction: column; /* จัดแนวแนวตั้ง */
+  align-items: center; /* จัดแนวกลาง */
+}
+
+.seat-name, .seat-price {
+  font-size: 20px; /* ขนาดตัวอักษร */
+  margin: 3px 3; /* ระยะห่างระหว่างชื่อและราคา */
+}
+.stage {
+  width: 1050px; /* ปรับขนาดตามต้องการ */
+  height: 100px; /* กำหนดความสูง */
+  background-color: red; /* สีพื้นหลัง */
+  border: 2px solid black; /* กรอบสีดำ */
+  font-size: 40px;
+  margin: 20px 20px 20px 20px; /* กำหนดระยะห่างจากที่นั่ง */
+  text-align: center; /* จัดข้อความให้อยู่กลาง */
+  line-height: 100px; /* จัดให้อยู่กลางในแนวตั้ง */
+  font-weight: bold; /* ทำให้ข้อความหนา */
+  color: white; /* สีข้อความ */
+  border-radius: 5px; /* มุมโค้ง */
+}
+.payment-section ,.payment-section p{
+  display: flex; /* ใช้ flexbox */
+  flex-direction: column; /* จัดแนวในแนวตั้ง */
+  align-items: center; /* จัดให้อยู่กลางในแนวนอน */
+  margin-top: 20px; /* เพิ่มระยะห่างด้านบน */
+  font-size: 20px; /* ขนาดตัวอักษร */
+  margin: 0; /* กำจัดระยะห่างตามค่าเริ่มต้น */
+}

@@ -1,0 +1,13 @@
+.my-tickets-container {
+  padding: 20px;
+}
+
+.tickets-list {
+  margin-top: 20px;
+}
+
+.ticket-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
