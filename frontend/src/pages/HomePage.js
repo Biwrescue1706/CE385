@@ -14,10 +14,7 @@ function HomePage() {
     } else {
       setUser(userData);
     }
-
-    // ลบโค้ดนี้ออกเพื่อไม่ให้มีการดึงข้อมูลคอนเสิร์ต
-    /*
-    fetch('/api/concerts')
+    fetch('/concerts')
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
@@ -35,7 +32,7 @@ function HomePage() {
         setError('Unable to fetch concerts.');
         setConcerts([]);
       });
-    */
+    
   }, []);
 
   return (
