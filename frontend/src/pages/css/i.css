@@ -1,0 +1,286 @@
+/* HomePage.css */
+
+/* Header Navigation */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #4a90e2;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  }
+  
+  .header-nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header-nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: color 0.3s;
+  }
+  
+  .header-nav a:hover {
+    color: #333;
+  }
+  
+  .header-buttons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .header-buttons a {
+    background-color: white;
+    color: #4a90e2;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+    border: 2px solid #4a90e2;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .header-buttons a:hover {
+    background-color: #4a90e2;
+    color: white;
+  }
+  
+  /* Logout button */
+  .logout-btn {
+    background-color: #fff;
+    color: #4a90e2;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid #4a90e2;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .logout-btn:hover {
+    background-color: #4a90e2;
+    color: white;
+  }
+  
+  /* Concerts Section */
+  .concerts-container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  .concerts-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .concerts-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .concert-item {
+    border: 2px solid #4a90e2;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .concert-item h3 {
+    font-size: 20px;
+    color: #4a90e2;
+  }
+  
+  .concert-item p {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .concert-item a {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+    transition: color 0.3s;
+  }
+  
+  .concert-item a:hover {
+    color: #2a6790;
+  }
+  
+  /* Error message */
+  .error-message {
+    color: red;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  /* General Styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .home-page {
+    padding: 20px;
+  }
+  
+  /* LoginPage.css */
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* เปลี่ยนสีพื้นหลัง */
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ให้เต็มความสูงของหน้าจอ */
+  }
+  
+  .login-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px; /* ความกว้างของฟอร์ม */
+    text-align: center; /* จัดข้อความให้อยู่ตรงกลาง */
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left; /* ให้ข้อความ label ชิดซ้าย */
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #008CBA; /* สีน้ำเงินสำหรับปุ่ม */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #005f75; /* เปลี่ยนสีปุ่มเมื่อชี้เมาส์ */
+  }
+  
+  .error-message {
+    color: red;
+    margin: 10px 0;
+  }
+  
+  .register-links {
+    margin-top: 10px;
+  }
+  
+  .register-links label {
+    font-size: 14px;
+  }
+  
+  .register-links a {
+    color: #007BFF; /* สีลิงก์ */
+    text-decoration: none; /* ไม่ให้มีขีดเส้นใต้ */
+  }
+  
+  .register-links a:hover {
+    text-decoration: underline; /* ขีดเส้นใต้เมื่อลอยอยู่เหนือ */
+  }
+  
+  /* RegisterPage.css */
+  
+  .register-page {
+    display: flex;
+    justify-content: center; /* จัดแนวกลางแนวนอน */
+    align-items: center; /* จัดแนวกลางแนวตั้ง */
+    height: 100vh; /* ให้ความสูงเต็มหน้าจอ */
+    background-color: #f0f8ff; /* สีพื้นหลัง */
+  }
+  
+  .form-container {
+    background-color: #ffffff; /* สีพื้นหลังของฟอร์ม */
+    padding: 20px;
+    border-radius: 8px; /* ทำมุมให้กลม */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* เงา */
+    width: 350px; /* กำหนดความกว้างของฟอร์ม */
+  }
+  
+  .form-section {
+    display: flex;
+    flex-direction: column; /* เรียงฟอร์มในแนวตั้ง */
+  }
+  
+  label {
+    margin-bottom: 20px; /* ระยะห่างระหว่างฟิลด์ */
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc; /* ขอบ */
+    border-radius: 4px; /* ทำมุมให้กลม */
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff; /* สีพื้นหลังปุ่ม */
+    color: white; /* สีตัวอักษร */
+    border: none; /* ไม่มีขอบ */
+    border-radius: 4px; /* ทำมุมให้กลม */
+    cursor: pointer; /* เปลี่ยนเคอร์เซอร์เมื่อวางเมาส์ */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* เปลี่ยนสีเมื่อวางเมาส์ */
+  }
+  
+  .error-message {
+    color: red; /* สีข้อความผิดพลาด */
+  }
+  
+  .success-message {
+    color: green; /* สีข้อความสำเร็จ */
+  }
+  
+  .back-to-login {
+    margin-top: 15px;
+    text-align: center; /* จัดข้อความกลาง */
+  }
+  
