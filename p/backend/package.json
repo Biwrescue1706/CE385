@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.x.x",
+    "webpack-cli": "^5.x.x",
+    "stream-browserify": "^3.x.x",
+    "crypto-browserify": "^3.x.x",
+    "url": "^0.x.x",
+    "events": "^3.x.x",
+    "process": "^0.x.x",
+    "buffer": "^6.x.x"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
